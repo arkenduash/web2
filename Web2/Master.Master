@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Web2.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:Label ID="Label1" runat="server" BackColor="Yellow" BorderColor="#006600" BorderStyle="Ridge" ForeColor="#000099" Text="CALCULATOR WORLD"></asp:Label>
+            <asp:TextBox ID="TextBox1" runat="server" Width="683px"></asp:TextBox>
+            <asp:Button ID="Button1" runat="server" BackColor="#3333CC" BorderColor="Yellow" BorderStyle="Dotted" Text="SEARCH" />
+            <br />
+            <asp:HyperLink ID="HyperLink1" runat="server" BackColor="Lime" ForeColor="Black" NavigateUrl="~/LOGIN.aspx">LOGIN</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" runat="server" BackColor="Blue" ForeColor="Yellow" NavigateUrl="~/register.aspx">REGISTER</asp:HyperLink>
+            <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
