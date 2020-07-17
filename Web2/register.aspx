@@ -34,6 +34,8 @@
 </p>
 <p>
     <asp:Button ID="Button2" runat="server" BackColor="Maroon" BorderColor="Black" BorderStyle="Solid" ForeColor="Yellow" OnClick="Button2_Click" Text="SIGN UP" />
+    <asp:Button ID="Button3" runat="server" BackColor="#3333FF" OnClick="Button3_Click" Text="save  details" />
+    <asp:HiddenField ID="HiddenField1" runat="server" />
 </p>
 <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
 <p>

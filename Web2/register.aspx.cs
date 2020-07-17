@@ -16,8 +16,14 @@ namespace Web2
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("home.aspx");
+            Response.Cookies["username"].Value = TextBox3.Text;
+            Response.Redirect($"home.aspx?name={TextBox2.Text}");
+            
+        }
 
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

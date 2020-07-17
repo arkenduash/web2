@@ -11,6 +11,10 @@ namespace Web2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Label19.Text = $"Hello {Request.QueryString["name"]}";
+            String s = Request.Cookies["username"].Value;
+            Label20.Text = $"your username {s}";
+            
 
         }
 
@@ -49,6 +53,11 @@ namespace Web2
             l = Convert.ToInt16(TextBox9.Text);
             f = d / l;
             Label18.Text = $"result is {f}";
+        }
+
+        protected void Button6_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

@@ -3,9 +3,19 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
-</p>
+        &nbsp;</p>
 <asp:Label ID="Label2" runat="server" BackColor="#000066" BorderColor="White" BorderStyle="Double" Font-Bold="True" ForeColor="White" Text="WELCOME" Width="245px"></asp:Label>
 <p>
+    <asp:Label ID="Label19" runat="server"></asp:Label>
+</p>
+    <p>
+        <asp:Label ID="Label20" runat="server" ForeColor="#009933"></asp:Label>
+</p>
+    <p>
+        <asp:Button ID="Button6" runat="server" BackColor="#0033CC" OnClick="Button6_Click" Text="user details" />
+        <asp:Label ID="Label21" runat="server" ForeColor="#3366FF"></asp:Label>
+</p>
+    <p>
     <asp:Label ID="Label3" runat="server" ForeColor="#000066" Text="Addition"></asp:Label>
 </p>
 <p>
